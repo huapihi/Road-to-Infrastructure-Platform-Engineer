@@ -8,3 +8,5 @@ sysadmin/reports/system_report.txt
 .local
 .viminfo
 .lesshst
+.ssh/
+.gitconfig
