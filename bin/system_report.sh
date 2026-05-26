@@ -28,4 +28,5 @@ mkdir -p ~/sysadmin/reports
         echo "SYSTEM UPTIME: $(uptime)"
         echo ""
         echo "SYSTEM REPORT COMPLETE!"
-} > ~/sysadmin/reports/system_report.txt
+} > ~/sysadmin/reports/system_report_$(date +%Y-%m-%d_%H-%M-%S).txt
+find ~/sysadmin/reports -name "system_report_*.txt" -mtime +7 -delete

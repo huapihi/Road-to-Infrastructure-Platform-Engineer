@@ -2,7 +2,7 @@
 This project contains a script that runs various commands to view the system check results.
 
 ## Purpose
-This script is designed for Linux System Administrators to quickly generate a snapshot of key system information and save it as a report. Future improvements will include a scheduled cron job that automatically runs the script and archives previous reports instead of overwriting them.
+This script is designed for Linux System Administrators to quickly generate a snapshot of key system information and save it as a report. This update adds the ability to archive the system_report.txt without overwriting the previous report. The reports are now timestamped and auto-cleaned after 7 days, and the cron job runs daily at 0600.
 
 ## Requirements
 - Red Hat Enterprise Linux 9 (or any RHEL-based Linux distribution)
@@ -14,8 +14,8 @@ This script is designed for Linux System Administrators to quickly generate a sn
 2. Add/create the script in the bin directory.
 3. Change the permission of the script so that it has executable permissions
 4. Test the script by running the script: system_report.sh
-5. View the generated report in the ~/sysadmin/reports/system_report.txt using the cat command
-	EX: cat ~/sysadmin/reports/system_report.txt
+5. List the generated reports in the ~/sysadmin/reports directory using the ls -l command to see the timestamped reports.
+	EX: ls -l ~/sysadmin/reports
 
 ## Output
 ```
