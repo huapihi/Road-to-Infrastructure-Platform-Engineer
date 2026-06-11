@@ -11,3 +11,4 @@ sysadmin/reports/system_report.txt
 .ssh/
 .gitconfig
 sysadmin
+.vim/
