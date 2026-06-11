@@ -10,3 +10,6 @@ This repository documents my journey towards becoming a Linux Infrastructure Pla
 ### Storage Setup
 - [v1 - Basic Partition Setup](projects/storage_setup/README_v1.md)
 - [v2 - Logical Volume Manager Setup](projects/storage_setup/README_v2.md)
+
+### System Audit
+- [v1 - System Audit Script](projects/system_audit/README_v1.md)
