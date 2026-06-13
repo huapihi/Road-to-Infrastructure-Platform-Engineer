@@ -12,3 +12,8 @@ sysadmin/reports/system_report.txt
 .gitconfig
 sysadmin
 .vim/
+.claude/
+.copilot/
+.dotnet/
+.vscode-server/
+.wget-hsts

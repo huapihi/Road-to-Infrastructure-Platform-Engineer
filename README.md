@@ -13,3 +13,6 @@ This repository documents my journey towards becoming a Linux Infrastructure Pla
 
 ### System Audit
 - [v1 - System Audit Script](projects/system_audit/README_v1.md)
+
+### User Audit
+- [v1 - User Audit Script](projects/system_audit/README_v1.md)
